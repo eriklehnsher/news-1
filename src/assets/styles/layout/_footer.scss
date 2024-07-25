@@ -1,0 +1,47 @@
+.footer {
+
+    width: 100%;
+
+    color: #a7a7a7;
+    font-size: 14px;
+}
+
+.footer__title {
+    color: #ffffff;
+    line-height: 1.83;
+    text-align: left;
+}
+
+.footer__top {
+    background: rgba(54, 53, 53, 0.8);
+    padding: 40px;
+}
+
+.footer__menu li a {
+    color: #a7a7a7;
+}
+.footer__socials{
+    margin-left: 20px;
+}
+
+.footer__social {
+   
+    width: 20px;
+    height: 20px;
+}
+.uk-first-column p {
+    text-align: left;
+}
+.footer__menu  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+    
+@media (max-width:667px) {
+    .uk-grid > * {
+        padding-left: 0;
+    }
+
+}

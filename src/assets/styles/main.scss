@@ -1,0 +1,90 @@
+// Import Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+// @import 'abstracts/functions';
+
+// Import Base Styles
+// @import 'base/reset';
+// @import 'base/typography';
+@import 'base/animations';
+@import 'base/base';
+
+// Import Components
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/cards';
+
+// Import Layouts
+@import 'layout/dashboard';
+@import 'layout/auth';
+@import 'layout/sidebar';
+@import 'layout/default';
+@import 'layout/header';
+@import 'layout/footer';
+
+// Import Pages
+@import 'pages/home';
+// @import 'pages/news';
+@import 'pages/about';
+
+// Import Themes
+@import 'themes/dark';
+@import 'themes/light';
+
+// Import Vendor Styles - another style css
+// @import 'vendors/bootstrap';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+// a:hover {
+//     color: #ffffff;
+// }
+
+body {
+    body {
+        font-family: "Chakra Petch Regular", sans-serif;
+    }
+}
+
+.app {
+    width: 100%;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.uk-grid-5 > *{
+    padding-left: 5px;
+}
+.uk-grid-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2px;
+}
