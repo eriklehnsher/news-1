@@ -116,9 +116,8 @@
     .ul-mobile .uk-button {
         width: 100%;
     }
-    .uk-grid >* {
-        padding-left: 10px !important;
-        margin-left: 10px !important;
+    .uk-grid * {
+        padding: 10px;
     }
     .footer__top {
         padding : 30px !important;

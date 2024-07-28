@@ -75,11 +75,11 @@
         display: none;
     }
 
-    // .uk-navbar-right .ul-mobile {
-    //     display: flex;
+    .uk-navbar-right .ul-mobile {
+        display: flex;
        
 
-    // }
+    }
 
     .uk-navbar-nav li {
         width: 100%;
@@ -115,12 +115,5 @@
     }
     .ul-mobile .uk-button {
         width: 100%;
-    }
-    .uk-grid >* {
-        padding-left: 10px !important;
-        margin-left: 10px !important;
-    }
-    .footer__top {
-        padding : 30px !important;
     }
 }
